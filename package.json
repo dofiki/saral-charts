@@ -12,6 +12,9 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "repository": {
+    "url": "https://github.com/dofiki/saral-charts"
+  },
   "scripts": {
       "build": "tsup"
   },
