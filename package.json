@@ -1,0 +1,34 @@
+{
+  "name": "saral-charts",
+  "type":"module",
+  "version": "0.0.1",
+  "description": "A chart library that renders fast, responsive bar, line, and pie charts using HTML5 Canvas.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+      "build": "tsup"
+  },
+  "keywords": [
+    "simple charts",
+    "saral charts",
+    "saral-charts"
+  ],
+  "author": "dofiki",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "react": "^19.1.0"
+  }
+}
