@@ -1,7 +1,7 @@
 {
   "name": "saral-charts",
   "type":"module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A chart library that renders fast, responsive bar, line, and pie charts using HTML5 Canvas.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

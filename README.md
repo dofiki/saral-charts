@@ -16,13 +16,13 @@ It supports bar, line, and pie charts with customizable styles and zero dependen
 ## 🚀 Installation
 
 ```bash
-npm install saral-canvas
+npm install saral-charts
 ````
 
 > Or with yarn:
 
 ```bash
-yarn add saral-canvas
+yarn add saral-charts
 ```
 
 ---
@@ -30,7 +30,7 @@ yarn add saral-canvas
 ## 🧩 Usage
 
 ```tsx
-import { SaralCanvas } from "saral-canvas";
+import { SaralCanvas } from "saral-charts";
 
 const data = {
   graph: "bar", // "bar" | "line" | "pie"
@@ -95,8 +95,8 @@ function App() {
 ## 🛠 Development
 
 ```bash
-git clone https://github.com/your-username/saral-canvas
-cd saral-canvas
+git clone https://github.com/dofiki/saral-charts
+cd saral-charts
 npm install
 npm run dev
 ```
